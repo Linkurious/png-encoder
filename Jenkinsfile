@@ -10,7 +10,7 @@ nodeJob {
   ]
   runBenchTests = true
   runPreReleaseOnUpload = false
-  npmPackPath = './dist'
+  npmPackPath = '.'
 
   //documentation
   binaries = ['./dist/ogma.tgz']
