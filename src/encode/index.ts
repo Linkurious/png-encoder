@@ -97,9 +97,6 @@ export default function encode(metadata: Metadata) {
       metadata.width,
       metadata.height,
       metadata.colorType,
-      metadata.depth,
-      metadata.interlace,
-      metadata.palette,
     );
   }
 

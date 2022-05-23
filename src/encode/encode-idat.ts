@@ -1,22 +1,16 @@
 /**
  * @since 2019-12-30 01:47
- * @author vivaxy
+ * @author Leo Nicolle
  */
 import * as pako from 'pako';
 import { buildImages, getPixelIndex } from '../helpers/interlace';
 import {  FILTER_TYPES } from '../helpers/filters';
-import {
-  COLOR_TYPES,
-} from '../helpers/color-types';
 
 export default function encodeIDAT(
   data: number[],
   width: number,
   height: number,
-  colorType: COLOR_TYPES,
-  depth: number,
   interlace: number,
-  palette?: [number, number, number, number][],
 ) {
   const images = buildImages(interlace, width, height);
   const total = images.reduce((total, image ) => {
