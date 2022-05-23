@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc --outDir dist/",
     "types": "tsc --declaration --allowJs false --emitDeclarationOnly --outDir dist/types",
-    "test": "jest",
+    "test:unit": "jest",
     "postversion": "sync_versions"
   },
   "repository": {
