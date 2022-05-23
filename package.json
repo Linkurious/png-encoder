@@ -1,6 +1,6 @@
 {
   "name": "@linkurious/png-encoder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fast PNG encoder",
   "main": "dist/index.js",
   "scripts": {
