@@ -9,3 +9,4 @@ lib
 src/decode/__tests__/fixtures/*/output.json
 src/encode/__tests__/fixtures/*/output.png
 src/encode/__tests__/fixtures/*/decode.json
+dist/
