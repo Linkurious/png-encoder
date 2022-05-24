@@ -10,8 +10,8 @@ export default function encodeIDAT(
   data: number[],
   width: number,
   height: number,
-  interlace: number,
 ) {
+  const interlace = 0;
   const images = buildImages(interlace, width, height);
   const total = images.reduce((total, image ) => {
       return total + (image.passWidth + 1) * image.passHeight * 4
