@@ -1,8 +1,11 @@
 {
   "name": "@linkurious/png-encoder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A fast PNG encoder",
   "main": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc --outDir dist/",
     "types": "tsc --declaration --allowJs false --emitDeclarationOnly --outDir dist/types",
