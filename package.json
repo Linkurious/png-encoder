@@ -1,6 +1,6 @@
 {
   "name": "@linkurious/png-encoder",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A fast PNG encoder",
   "main": "dist/index.js",
   "publishConfig": {
@@ -31,8 +31,8 @@
     "url": "https://github.com/Linkurious/png-encoder/issues"
   },
   "homepage": "https://github.com/Linkurious/png-encoder",
-  "typings": "dist/types/index.d.ts",
-  "types": "dist/types/index.d.js",
+  "typings": "dist/index.d.ts",
+  "types": "dist/index.d.js",
   "engines": {
     "node": "16.15.0",
     "npm": "8.5.5"
