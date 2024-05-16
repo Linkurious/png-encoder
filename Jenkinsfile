@@ -6,4 +6,5 @@ nodeJob {
   podTemplateNames = ['jnlp-agent-node']  
   createGitTag = true
   runNpmPublish = true
+  runBookeeping = true  
 }
