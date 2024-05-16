@@ -1,6 +1,6 @@
 {
   "name": "@linkurious/png-encoder",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "A fast PNG encoder",
   "main": "dist/index.js",
   "publishConfig": {
@@ -10,7 +10,7 @@
     "build": "tsc --outDir dist/",
     "bump:patch": "bump2version patch && npm version --no-git-tag-version patch",
     "bump:minor": "bump2version minor && npm version --no-git-tag-version minor",
-    "bump:major": "bump2version major && npm version --no-git-tag-version major",    
+    "bump:major": "bump2version major && npm version --no-git-tag-version major",
     "types": "tsc --declaration --allowJs false --emitDeclarationOnly --outDir dist/types",
     "test:unit": "jest",
     "postversion": "sync_versions"
